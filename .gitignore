@@ -1,0 +1,40 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencias (no usamos, pero por si acaso)
+node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Datos del usuario (NUNCA subir datos reales al repo)
+*.csv
+*.xlsx
+*.xls
+*.tsv
+data/
+datasets/
+uploads/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Environment
+.env
+.env.local
